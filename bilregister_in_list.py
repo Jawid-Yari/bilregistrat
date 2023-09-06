@@ -59,7 +59,7 @@ if __name__ == "__main__":
         car = Car(input)
         register_car(get_sublist_for_license_plate(cars, car.license_plate), car, cars)
 
-    print(f"Search result:{find_car_by_license_plate(cars, input)}")
+    print(f"You have succesfully registered:{find_car_by_license_plate(cars, input)}")
        
  
 
